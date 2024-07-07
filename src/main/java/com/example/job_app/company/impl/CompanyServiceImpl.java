@@ -3,7 +3,6 @@ package com.example.job_app.company.impl;
 import com.example.job_app.company.Company;
 import com.example.job_app.company.CompanyRepository;
 import com.example.job_app.company.CompanyService;
-import com.example.job_app.job.Job;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
