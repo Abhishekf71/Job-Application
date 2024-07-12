@@ -10,3 +10,22 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+#Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: JobApplication
+    description: Job App built by AbhishekF
+    version: 1.0.0
